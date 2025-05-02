@@ -25,7 +25,7 @@
 | Bonus Elements                                                                          | Implemented   |
 |-----------------------------------------------------------------------------------------|-------------- |
 | **Multiple Levels**: Enemy count increases with each level                              | YES           |
-| **High Score**: Saved across play sessions using `localStorage`                         | YES           |
+| **High Score**: Saved across play sessions using `localStorage` (note: it will display as 0 for the high score when playing for the first time                         | YES           |
 | **Title Screen**: With navigation instructions and scene transitions                    | YES           |
 | **Controls/Credits Screens**: Accessible from the title screen using `X` and `C` keys   | YES           |
 
