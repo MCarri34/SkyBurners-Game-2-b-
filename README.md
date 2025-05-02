@@ -10,7 +10,6 @@
 
 ## Features Checklist
 
-|-----------------------------------------------------------------------------------------|-------------- |
 | Implementation Details (Requirements)                                                   | Implemented   |
 |-----------------------------------------------------------------------------------------|-------------- |
 | JavaScript using Phaser game framework                                                  | YES           |
@@ -21,7 +20,8 @@
 | Collision detection using loop-based checks between groups                              | YES           |
 | End game state (`GameOverScene`) with high score display                                | YES           |
 | Game can be restarted without refreshing the browser                                    | YES           |
-|-----------------------------------------------------------------------------------------|-------------- |
+
+
 | Bonus Elements                                                                          | Implemented   |
 |-----------------------------------------------------------------------------------------|-------------- |
 | **Multiple Levels**: Enemy count increases with each level                              | YES           |
