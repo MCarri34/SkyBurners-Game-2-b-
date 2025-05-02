@@ -36,7 +36,7 @@ class GameScene extends Phaser.Scene {
         this.spawnEnemies();
 
         this.scoreText = this.add.bitmapText(16, 16, 'arcade', 'Score: 0', 20);
-        this.livesText = this.add.bitmapText(700, 16, 'arcade', 'Health: 5', 20);
+        this.livesText = this.add.bitmapText(700, 16, 'arcade', 'Health: 10', 20);
         this.levelText = this.add.bitmapText(350, 16, 'arcade', 'Level: 1', 20);
 
         this.physics.add.collider(this.bullets, this.enemies, this.hitEnemy, null, this);
