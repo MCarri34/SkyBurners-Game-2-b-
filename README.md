@@ -10,7 +10,8 @@
 
 ## Features Checklist
 
-| Feature                                                                                 | Implemented   |
+|-----------------------------------------------------------------------------------------|-------------- |
+| Implementation Details (Requirements)                                                   | Implemented   |
 |-----------------------------------------------------------------------------------------|-------------- |
 | JavaScript using Phaser game framework                                                  | YES           |
 | Uses multiple Phaser `Scene` classes (`GameScene`, `TitleScene`, `ControlsScene`, etc.) | YES           |
@@ -20,6 +21,9 @@
 | Collision detection using loop-based checks between groups                              | YES           |
 | End game state (`GameOverScene`) with high score display                                | YES           |
 | Game can be restarted without refreshing the browser                                    | YES           |
+|-----------------------------------------------------------------------------------------|-------------- |
+| Bonus Elements                                                                          | Implemented   |
+|-----------------------------------------------------------------------------------------|-------------- |
 | **Multiple Levels**: Enemy count increases with each level                              | YES           |
 | **High Score**: Saved across play sessions using `localStorage`                         | YES           |
 | **Title Screen**: With navigation instructions and scene transitions                    | YES           |
