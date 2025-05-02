@@ -14,7 +14,7 @@
 |-----------------------------------------------------------------------------------------|-------------- |
 | JavaScript using Phaser game framework                                                  | YES           |
 | Uses multiple Phaser `Scene` classes (`GameScene`, `TitleScene`, `ControlsScene`, etc.) | YES           |
-| Keyboard input (arrow keys + space + shortcuts)                                         | YEs           |
+| Keyboard input (arrow keys + space + shortcuts)                                         | YES           |
 | Off-the-shelf art and audio assets from [kenney.nl] (https://kenney.nl)                 | YES           |
 | Group-based game object handling (`this.physics.add.group(...)`)                        | YES           |
 | Collision detection using loop-based checks between groups                              | YES           |
