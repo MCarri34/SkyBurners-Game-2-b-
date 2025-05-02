@@ -21,7 +21,7 @@ class GameScene extends Phaser.Scene {
 
     initGame() {
         this.score = 0;
-        this.lives = 5;
+        this.lives = 10;
         this.level = 1;
         this.highScore = localStorage.getItem('highScore') || 0;
         this.player = this.physics.add.sprite(500, 700, 'player').setScale(3).setCollideWorldBounds(true);
